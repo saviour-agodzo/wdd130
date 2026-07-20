@@ -69,6 +69,27 @@ h1 {
         /*white text-make sure there is enough contrast with the background-color */
 }
 
+h2 {
+    color: var(--secondary-color)
+}
+
+section {
+    background-color: var(--accent2-color);
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px right: 20px
+}
+
 .hero article img {
     float: right;
     width: 125px;
