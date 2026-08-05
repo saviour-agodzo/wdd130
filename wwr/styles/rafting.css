@@ -159,6 +159,10 @@ figcaption {
     text-align: center;
 }
 
+.map iframe {
+    border: 0;
+}
+
 .company-info iframe {
     width: 100%;
     max-width: 600px;

@@ -28,7 +28,7 @@
 
     <main>
 
-        <h1>Contact Us</h1>
+        <h1>Contact Exciting Expeditions</h1>
 
         <section class="company-info">
             <h2>Company Information</h2>
@@ -43,7 +43,7 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d508174.23846006714!2d-0.4438003828124995!3d5.69706479637253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1785851398527!5m2!1sen!2sgh"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
 
@@ -85,17 +85,18 @@
                 <p>Purpose of Message</p>
 
                 <label>
-                    <input type="radio" name="purpose" value="General Inquiry" checked>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" checked>
                     General Inquiry
                 </label>
 
                 <label>
-                    <input type="radio" name="purpose" value="Reservation Question">
+                    <input type="radio" id="reservation" name="purpose"
+                      value="Reservation Question">
                     Reservation Question
                 </label>
 
                 <label>
-                    <input type="radio" name="purpose" value="Website Suggestion">
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
                     Website Suggestion
                 </label>
 
@@ -104,7 +105,7 @@
                 <textarea id="message" name="message" rows="6"></textarea>
 
                 <label>
-                    <input type="checkbox" name="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
                     Please subscribe me to the monthly newsletter
                 </label>
 
