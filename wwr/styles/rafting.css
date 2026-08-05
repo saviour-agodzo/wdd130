@@ -58,7 +58,7 @@ section {
 /* HEADER */
 header {
     display: grid;
-    grid-template-columns: 150px, 1fr;
+    grid-template-columns: 150px 1fr;
     align-items: center;
     background-color: #f4f4f4;
     padding: 15px 30px;
@@ -111,7 +111,7 @@ nav a:hover {
 
 .hero article img {
     float: right;
-    width: 125;
+    width: 125px;
 }
 
 /* HISTORY */
